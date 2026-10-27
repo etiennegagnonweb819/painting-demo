@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-labelledby="beforeTitle">
+  <title id="beforeTitle">Sample before photo: kids crayon drawings, scuffs, and worn baseboards</title>
+  <defs>
+    <linearGradient id="floorB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c4a574"/>
+      <stop offset="100%" stop-color="#a07d4e"/>
+    </linearGradient>
+    <linearGradient id="wallB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8e2d4"/>
+      <stop offset="100%" stop-color="#d5ccb8"/>
+    </linearGradient>
+    <linearGradient id="ceilB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f3efe6"/>
+      <stop offset="100%" stop-color="#e4ddd0"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" result="n"/>
+      <feColorMatrix in="n" type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.08"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+
+  <!-- Ceiling -->
+  <polygon points="0,0 1200,0 1080,140 120,140" fill="url(#ceilB)"/>
+  <!-- Back wall -->
+  <rect x="120" y="140" width="960" height="520" fill="url(#wallB)"/>
+  <!-- Side walls -->
+  <polygon points="0,0 120,140 120,660 0,900" fill="#d0c6b0"/>
+  <polygon points="1200,0 1080,140 1080,660 1200,900" fill="#c9bfab"/>
+  <!-- Floor -->
+  <polygon points="0,900 120,660 1080,660 1200,900" fill="url(#floorB)"/>
+  <g opacity="0.18" stroke="#6b4e2e" stroke-width="3">
+    <line x1="80" y1="880" x2="200" y2="668"/>
+    <line x1="200" y1="880" x2="310" y2="668"/>
+    <line x1="340" y1="880" x2="430" y2="668"/>
+    <line x1="480" y1="880" x2="545" y2="668"/>
+    <line x1="620" y1="880" x2="655" y2="668"/>
+    <line x1="760" y1="880" x2="770" y2="668"/>
+    <line x1="900" y1="880" x2="880" y2="668"/>
+    <line x1="1040" y1="880" x2="990" y2="668"/>
+    <line x1="1140" y1="880" x2="1060" y2="668"/>
+  </g>
+
+  <!-- Window -->
+  <rect x="165" y="210" width="210" height="280" fill="#8a9aaa"/>
+  <rect x="178" y="224" width="184" height="252" fill="#cfe4f5"/>
+  <line x1="270" y1="224" x2="270" y2="476" stroke="#8a9aaa" stroke-width="8"/>
+  <line x1="178" y1="350" x2="362" y2="350" stroke="#8a9aaa" stroke-width="8"/>
+  <rect x="155" y="490" width="230" height="18" fill="#b7aa92"/>
+
+  <!-- Baseboards (scuffed, chipped) -->
+  <path d="M120 640 h960 v28 H120 z" fill="#cfc4ae"/>
+  <path d="M0 868 L120 668 v28 L0 900 z" fill="#c4b89f"/>
+  <path d="M1080 668 L1200 868 v32 L1080 696 z" fill="#b9ad94"/>
+  <!-- chips -->
+  <path d="M210 648 l18 8 -6 12 -22 -4 z" fill="#8a7a62"/>
+  <path d="M430 652 l40 4 4 14 -48 2 z" fill="#7d6c52"/>
+  <ellipse cx="690" cy="662" rx="28" ry="10" fill="#6f5d45" opacity="0.7"/>
+  <path d="M860 646 h50 l-8 22 h-46 z" fill="#9a8868"/>
+  <path d="M980 650 l30 6 -4 16 -36 -2 z" fill="#5c4c38"/>
+
+  <!-- Scuff marks near floor and mid-wall -->
+  <g opacity="0.55" stroke="#5a4a38" fill="none" stroke-width="3" stroke-linecap="round">
+    <path d="M250 600 q20 8 40 -6 t38 10"/>
+    <path d="M400 618 q30 -12 55 4"/>
+    <path d="M720 590 q18 14 48 2 t40 12"/>
+    <path d="M840 610 q22 -8 44 6"/>
+    <path d="M520 640 q16 4 28 -8"/>
+  </g>
+  <g opacity="0.35">
+    <ellipse cx="310" cy="630" rx="42" ry="16" fill="#6b5a44"/>
+    <ellipse cx="780" cy="638" rx="50" ry="14" fill="#4a3d2e"/>
+    <ellipse cx="960" cy="600" rx="26" ry="22" fill="#5c5346"/>
+  </g>
+
+  <!-- Kids crayon drawings  kept in the centre so they stay visible -->
+  <g stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- sun -->
+    <circle cx="520" cy="250" r="38" stroke="#f0b90b" stroke-width="7"/>
+    <g stroke="#f5c400" stroke-width="5">
+      <line x1="520" y1="196" x2="520" y2="178"/>
+      <line x1="520" y1="324" x2="520" y2="342"/>
+      <line x1="466" y1="250" x2="448" y2="250"/>
+      <line x1="574" y1="250" x2="592" y2="250"/>
+      <line x1="482" y1="212" x2="468" y2="198"/>
+      <line x1="558" y1="288" x2="572" y2="302"/>
+      <line x1="482" y1="288" x2="468" y2="302"/>
+      <line x1="558" y1="212" x2="572" y2="198"/>
+    </g>
+    <!-- house -->
+    <path d="M620 430 L700 370 L780 430" stroke="#c0392b" stroke-width="8"/>
+    <rect x="640" y="430" width="120" height="90" stroke="#3498db" stroke-width="7" fill="none"/>
+    <rect x="688" y="470" width="28" height="50" stroke="#8e44ad" stroke-width="6"/>
+    <rect x="655" y="448" width="22" height="22" stroke="#2ecc71" stroke-width="5"/>
+    <rect x="724" y="448" width="22" height="22" stroke="#2ecc71" stroke-width="5"/>
+    <!-- stick family -->
+    <circle cx="470" cy="390" r="16" stroke="#e67e22" stroke-width="6"/>
+    <line x1="470" y1="406" x2="470" y2="470" stroke="#e67e22" stroke-width="6"/>
+    <line x1="470" y1="430" x2="442" y2="450" stroke="#e67e22" stroke-width="6"/>
+    <line x1="470" y1="430" x2="496" y2="448" stroke="#e67e22" stroke-width="6"/>
+    <line x1="470" y1="470" x2="452" y2="512" stroke="#e67e22" stroke-width="6"/>
+    <line x1="470" y1="470" x2="490" y2="512" stroke="#e67e22" stroke-width="6"/>
+    <circle cx="530" cy="404" r="12" stroke="#9b59b6" stroke-width="5"/>
+    <line x1="530" y1="416" x2="530" y2="468" stroke="#9b59b6" stroke-width="5"/>
+    <line x1="530" y1="436" x2="512" y2="452" stroke="#9b59b6" stroke-width="5"/>
+    <line x1="530" y1="436" x2="548" y2="450" stroke="#9b59b6" stroke-width="5"/>
+    <line x1="530" y1="468" x2="518" y2="504" stroke="#9b59b6" stroke-width="5"/>
+    <line x1="530" y1="468" x2="544" y2="504" stroke="#9b59b6" stroke-width="5"/>
+    <!-- scribbles + letters -->
+    <path d="M820 240 q30 40 10 80 t50 50" stroke="#e74c3c" stroke-width="8"/>
+    <path d="M860 220 q-20 60 30 70 t-10 60" stroke="#2980b9" stroke-width="7"/>
+    <path d="M900 300 q40 -30 20 40 t40 20" stroke="#27ae60" stroke-width="8"/>
+    <text x="430" y="575" font-family="Comic Sans MS, Comic Neue, cursive" font-size="42" fill="#2c3e50" transform="rotate(-6 430 575)">LÉA</text>
+    <text x="820" y="520" font-family="Comic Sans MS, Comic Neue, cursive" font-size="36" fill="#c0392b" transform="rotate(8 820 520)">MAX</text>
+    <!-- flower -->
+    <circle cx="940" cy="430" r="12" fill="#f1c40f" stroke="none"/>
+    <circle cx="924" cy="418" r="10" fill="#e74c3c" opacity="0.85"/>
+    <circle cx="956" cy="418" r="10" fill="#e74c3c" opacity="0.85"/>
+    <circle cx="924" cy="442" r="10" fill="#e74c3c" opacity="0.85"/>
+    <circle cx="956" cy="442" r="10" fill="#e74c3c" opacity="0.85"/>
+    <line x1="940" y1="442" x2="940" y2="500" stroke="#1e8449" stroke-width="5"/>
+  </g>
+
+  <!-- extra crayon streaks -->
+  <path d="M390 280 q80 -20 120 30" fill="none" stroke="#16a085" stroke-width="6" opacity="0.7"/>
+  <path d="M780 560 q60 10 90 -20" fill="none" stroke="#8e44ad" stroke-width="7" opacity="0.65"/>
+
+  <rect x="0" y="0" width="1200" height="900" filter="url(#grain)"/>
+</svg>
